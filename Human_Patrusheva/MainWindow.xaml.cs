@@ -11,10 +11,13 @@ namespace Human_Patrusheva
         public static MediaPlayer MediaPlayer = new MediaPlayer();
 
         private Classes.Russian Russian = new Classes.Russian("Александр", @"C:\\Users\\Хонор\\Desktop\\Human_Patrusheva\\Human_Patrusheva\\Images\\ic_russian.png");
+        private Classes.English English = new Classes.English("Aleksandr", @"C:\Users\Хонор\Desktop\Human_Patrusheva\Human_Patrusheva\Images\ic_english.png");
+
         public MainWindow()
         {
             InitializeComponent();
             Parent.Children.Add(new Elements.Item(Russian));
+            Parent.Children.Add(new Elements.Item(English));
         }
     }
 }
