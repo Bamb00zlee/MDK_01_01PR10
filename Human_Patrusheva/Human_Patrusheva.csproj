@@ -67,6 +67,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\Deutsch.cs" />
     <Compile Include="Classes\English.cs" />
     <Compile Include="Classes\Human.cs" />
     <Compile Include="Classes\Phrase.cs" />
@@ -113,6 +114,10 @@
     <Resource Include="Images\ic_russian.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Images\Dutish.jpg" />
+    <Content Include="Voices\audioDutish1.mp3" />
+    <Content Include="Voices\audioDutish2.mp3" />
+    <Content Include="Voices\audioDutish3.mp3" />
     <Content Include="Voices\audioEnglish1.mp3" />
     <Content Include="Voices\audioEnglish2.mp3" />
     <Content Include="Voices\audioEnglish3.mp3" />
