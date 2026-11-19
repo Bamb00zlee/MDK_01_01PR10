@@ -31,7 +31,12 @@ namespace Human_Patrusheva.Elements
             Ilrace.Content = Data.GetType().Name;
         }
 
-        private void Speek(object sender, MouseButtonEventArgs e) =>
+        public void Speek(object sender, MouseButtonEventArgs e) =>
             Human.Speak(lText);
+
+        public void SpeakItem()
+        {
+            Human.Speak(lText);
+        }
     }
 }

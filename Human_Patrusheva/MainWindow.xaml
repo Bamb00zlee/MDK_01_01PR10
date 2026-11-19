@@ -10,6 +10,14 @@
         <StackPanel
             Orientation="Horizontal"
             x:Name="Parent"/>
+        <Button 
+            x:Name="BtnDialog" 
+            Content="Диалог" 
+            Width="150" Height="32" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top" 
+            Margin="0,10,0,0"
+            Click="For_dilog"/>
 
     </Grid>
 </Window>
